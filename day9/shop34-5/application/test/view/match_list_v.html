@@ -1,0 +1,25 @@
+<!-- 模板文件，利用HTML代码展示数据 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>比赛列表</title>
+</head>
+<body>
+
+<table>
+<tr>
+<th>球队一</th><th>比分</th><th>球队二</th><th>时间</th><th>操作</th>
+</tr>
+<?php foreach($match_list as $row) : ?>
+	<tr>
+	<td><a href="index.php?c=Team&a=info&id=TID"><?php echo $row['t1_name'];?></a></td>
+	<td><?php echo $row['t1_score'];?>:<?php echo $row['t2_score'];?></td>
+	<td><?php echo $row['t2_name'];?></td>
+	<td><?php echo date('Y-m-d H:i', $row['m_time']);?></td>
+	<td><a href="index.php?p=test&c=Match&a=remove&id=N">删除</a></td>
+	</tr>
+<?php endForeach;?>
+</table>	
+</body>
+</html>

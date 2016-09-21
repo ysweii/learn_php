@@ -1,0 +1,66 @@
+<html>
+	<head><title>学员的基本信息</title></head>
+	<body>
+
+		<table align = "center" width = "80%" border = "0" cellpadding = "2" cellspacing = "0">
+			<caption><h2>学员的基本信息表</h2></caption>
+			<form action = "server.php" method = "post">
+				<tr>
+					<th>姓名：</th>
+					<td><input type = "text" name = "username" size = "20"></td>
+				</tr>
+
+				<tr>
+					<th>性别：</th>
+					<td><input type = "radio" name = "sex" value = "1" checked >男</td>
+					<td><input type = "radio" name = "sex" value = "2">女</td>
+					<td><input type = "radio" name = "sex" value = "3">保密</td>
+				</tr>
+
+				<tr>
+					<th>学历</th>
+					<td>
+						<select name = "edu">
+							<option>--请选择--</option>
+							<option>高中</option>
+							<option>中专</option>
+							<option>本科</option>
+							<option>硕士</option>
+							<option>其他</option>
+
+						</select>
+					</td>
+				</tr>
+
+				<tr>
+					<th>选修课程：</th>
+					<td>
+						<input type = "checkbox" name = "course[]" value = "4">Linux
+						<input type = "checkbox" name = "course[]" value = "5">Apache
+						<input type = "checkbox" name = "course[]" value = "6">MySQL
+						<input type = "checkbox" name = "course[]" value = "7">php
+
+					</td>
+				</tr>
+
+
+				<tr>
+					<th>自我评价</th>
+					<td>
+						<textarea name = "eval" rows = "4" cols = "40"></textarea>
+					</td>
+				</tr>
+
+				<tr>
+					<td colspan = "2" align = "center">
+						<input type = "submit" name = "submit" value ="提交">
+						<input type = "reset" name = "reset" value = "重置">
+					</td>
+				</tr>
+
+			</form>
+
+
+		</table>
+	</body>
+</html>

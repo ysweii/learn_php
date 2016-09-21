@@ -1,0 +1,917 @@
+[2015-03-02 15:27:56] set names utf8
+[2015-03-02 15:27:56] DESC cz_category
+[2015-03-02 15:27:56] SELECT * FROM cz_category
+[2015-03-02 15:27:59] set names utf8
+[2015-03-02 15:27:59] DESC cz_category
+[2015-03-02 15:27:59] select * from `cz_category` where `cat_id`=1
+[2015-03-02 15:27:59] SELECT * FROM cz_category
+[2015-03-02 15:28:00] set names utf8
+[2015-03-02 15:28:00] DESC cz_category
+[2015-03-02 15:28:00] SELECT * FROM cz_category
+[2015-03-02 15:33:27] set names utf8
+[2015-03-02 15:33:27] DESC cz_category
+[2015-03-02 15:33:27] SELECT * FROM cz_category
+[2015-03-03 22:10:57] set names utf8
+[2015-03-03 22:10:57] DESC cz_admin
+[2015-03-03 22:10:57] SELECT * FROM cz_admin 
+			    WHERE admin_name = 'admin' AND password = '21232f297a57a5a743894a0e4a801fc3' 
+			    LIMIT 1
+[2015-03-03 22:12:13] set names utf8
+[2015-03-03 22:12:13] DESC cz_brand
+[2015-03-03 22:12:14] set names utf8
+[2015-03-03 22:12:14] DESC cz_brand
+[2015-03-03 22:12:18] set names utf8
+[2015-03-03 22:12:18] DESC cz_brand
+[2015-03-03 22:12:18] set names utf8
+[2015-03-03 22:12:18] DESC cz_brand
+[2015-03-03 22:12:50] set names utf8
+[2015-03-03 22:12:50] DESC cz_brand
+[2015-03-03 22:12:50] select count(*) from cz_brand
+[2015-03-03 22:12:50] select * from cz_brand limit 0,2
+[2015-03-03 22:12:52] set names utf8
+[2015-03-03 22:12:52] DESC cz_brand
+[2015-03-03 22:12:52] select count(*) from cz_brand
+[2015-03-03 22:12:52] select * from cz_brand limit 2,2
+[2015-03-03 22:12:54] set names utf8
+[2015-03-03 22:12:54] DESC cz_brand
+[2015-03-03 22:12:54] select count(*) from cz_brand
+[2015-03-03 22:12:54] select * from cz_brand limit 0,2
+[2015-03-04 09:14:15] set names utf8
+[2015-03-04 09:14:15] DESC cz_admin
+[2015-03-04 09:14:15] SELECT * FROM cz_admin 
+			    WHERE admin_name = 'admin' AND password = '21232f297a57a5a743894a0e4a801fc3' 
+			    LIMIT 1
+[2015-03-04 09:21:59] set names utf8
+[2015-03-04 09:21:59] DESC cz_goods_type
+[2015-03-04 09:21:59] INSERT INTO `cz_goods_type` (`type_name`) VALUES ('元宵')
+[2015-03-04 09:27:18] set names utf8
+[2015-03-04 09:27:18] DESC cz_goods_type
+[2015-03-04 09:27:18] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 09:27:21] set names utf8
+[2015-03-04 09:27:21] DESC cz_goods_type
+[2015-03-04 09:27:21] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 09:27:22] set names utf8
+[2015-03-04 09:27:22] DESC cz_goods_type
+[2015-03-04 09:27:22] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 09:27:22] set names utf8
+[2015-03-04 09:27:22] DESC cz_goods_type
+[2015-03-04 09:27:22] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 09:27:23] set names utf8
+[2015-03-04 09:27:23] DESC cz_goods_type
+[2015-03-04 09:27:23] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 09:27:23] set names utf8
+[2015-03-04 09:27:23] DESC cz_goods_type
+[2015-03-04 09:27:23] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 09:27:23] set names utf8
+[2015-03-04 09:27:23] DESC cz_goods_type
+[2015-03-04 09:27:23] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 09:27:23] set names utf8
+[2015-03-04 09:27:23] DESC cz_goods_type
+[2015-03-04 09:27:23] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 09:27:23] set names utf8
+[2015-03-04 09:27:23] DESC cz_goods_type
+[2015-03-04 09:27:23] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 09:27:24] set names utf8
+[2015-03-04 09:27:24] DESC cz_goods_type
+[2015-03-04 09:27:24] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 09:27:24] set names utf8
+[2015-03-04 09:27:24] DESC cz_goods_type
+[2015-03-04 09:27:24] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 09:27:24] set names utf8
+[2015-03-04 09:27:24] DESC cz_goods_type
+[2015-03-04 09:27:24] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 09:27:59] set names utf8
+[2015-03-04 09:27:59] DESC cz_goods_type
+[2015-03-04 09:27:59] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 09:32:09] set names utf8
+[2015-03-04 09:32:09] DESC cz_goods_type
+[2015-03-04 09:32:09] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 09:40:38] set names utf8
+[2015-03-04 09:40:38] DESC cz_brand
+[2015-03-04 09:40:38] select count(*) from cz_brand
+[2015-03-04 09:40:38] select * from cz_brand limit 0,2
+[2015-03-04 09:46:12] set names utf8
+[2015-03-04 09:46:12] DESC cz_brand
+[2015-03-04 09:46:12] select count(*) from cz_brand
+[2015-03-04 09:46:12] select * from cz_brand limit 0,2
+[2015-03-04 09:48:58] set names utf8
+[2015-03-04 09:48:58] DESC cz_goods_type
+[2015-03-04 09:48:58] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 09:49:27] set names utf8
+[2015-03-04 09:49:27] DESC cz_goods_type
+[2015-03-04 09:49:27] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 09:49:44] set names utf8
+[2015-03-04 09:49:44] DESC cz_goods_type
+[2015-03-04 09:49:44] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 09:49:48] set names utf8
+[2015-03-04 09:49:48] DESC cz_goods_type
+[2015-03-04 09:49:48] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 09:49:51] set names utf8
+[2015-03-04 09:49:51] DESC cz_goods_type
+[2015-03-04 09:49:51] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 2,2
+[2015-03-04 09:49:55] set names utf8
+[2015-03-04 09:49:55] DESC cz_goods_type
+[2015-03-04 09:49:55] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 10,2
+[2015-03-04 09:55:09] set names utf8
+[2015-03-04 09:55:09] DESC cz_goods_type
+[2015-03-04 09:55:09] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 09:55:09] select count(*) from cz_goods_type
+[2015-03-04 09:55:36] set names utf8
+[2015-03-04 09:55:36] DESC cz_goods_type
+[2015-03-04 09:55:36] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 09:55:36] select count(*) from cz_goods_type
+[2015-03-04 09:55:38] set names utf8
+[2015-03-04 09:55:38] DESC cz_goods_type
+[2015-03-04 09:55:38] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 2,2
+[2015-03-04 09:55:38] select count(*) from cz_goods_type
+[2015-03-04 09:55:39] set names utf8
+[2015-03-04 09:55:39] DESC cz_goods_type
+[2015-03-04 09:55:39] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 4,2
+[2015-03-04 09:55:39] select count(*) from cz_goods_type
+[2015-03-04 09:55:40] set names utf8
+[2015-03-04 09:55:40] DESC cz_goods_type
+[2015-03-04 09:55:40] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 6,2
+[2015-03-04 09:55:40] select count(*) from cz_goods_type
+[2015-03-04 09:55:41] set names utf8
+[2015-03-04 09:55:41] DESC cz_goods_type
+[2015-03-04 09:55:41] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 8,2
+[2015-03-04 09:55:41] select count(*) from cz_goods_type
+[2015-03-04 09:55:42] set names utf8
+[2015-03-04 09:55:42] DESC cz_goods_type
+[2015-03-04 09:55:42] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 10,2
+[2015-03-04 09:55:42] select count(*) from cz_goods_type
+[2015-03-04 09:55:46] set names utf8
+[2015-03-04 09:55:46] DESC cz_goods_type
+[2015-03-04 09:55:46] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 09:55:46] select count(*) from cz_goods_type
+[2015-03-04 09:55:48] set names utf8
+[2015-03-04 09:55:48] DESC cz_goods_type
+[2015-03-04 09:55:48] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 10,2
+[2015-03-04 09:55:48] select count(*) from cz_goods_type
+[2015-03-04 09:55:50] set names utf8
+[2015-03-04 09:55:50] DESC cz_goods_type
+[2015-03-04 09:55:50] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 8,2
+[2015-03-04 09:55:50] select count(*) from cz_goods_type
+[2015-03-04 09:55:51] set names utf8
+[2015-03-04 09:55:51] DESC cz_goods_type
+[2015-03-04 09:55:51] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 6,2
+[2015-03-04 09:55:51] select count(*) from cz_goods_type
+[2015-03-04 09:55:52] set names utf8
+[2015-03-04 09:55:52] DESC cz_goods_type
+[2015-03-04 09:55:52] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 4,2
+[2015-03-04 09:55:52] select count(*) from cz_goods_type
+[2015-03-04 09:55:52] set names utf8
+[2015-03-04 09:55:52] DESC cz_goods_type
+[2015-03-04 09:55:52] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 2,2
+[2015-03-04 09:55:52] select count(*) from cz_goods_type
+[2015-03-04 09:55:53] set names utf8
+[2015-03-04 09:55:53] DESC cz_goods_type
+[2015-03-04 09:55:53] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 09:55:53] select count(*) from cz_goods_type
+[2015-03-04 10:49:46] set names utf8
+[2015-03-04 10:49:46] DESC cz_goods_type
+[2015-03-04 10:49:46] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 10:57:44] set names utf8
+[2015-03-04 10:57:44] DESC cz_goods_type
+[2015-03-04 10:57:44] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 10:58:35] set names utf8
+[2015-03-04 10:58:35] DESC cz_attribute
+[2015-03-04 10:58:35] INSERT INTO `cz_attribute` (`attr_name`,`type_id`,`attr_type`,`attr_input_type`,`attr_value`) VALUES ('馅','22','0','1','芝麻
+韭菜
+山楂')
+[2015-03-04 11:04:10] set names utf8
+[2015-03-04 11:04:10] DESC cz_goods_type
+[2015-03-04 11:04:10] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 11:04:11] set names utf8
+[2015-03-04 11:04:11] DESC cz_goods_type
+[2015-03-04 11:04:11] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 11:04:11] select count(*) from cz_goods_type
+[2015-03-04 11:04:13] set names utf8
+[2015-03-04 11:04:13] DESC cz_goods_type
+[2015-03-04 11:04:13] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 11:04:13] select count(*) from cz_goods_type
+[2015-03-04 11:04:17] set names utf8
+[2015-03-04 11:04:17] DESC cz_goods_type
+[2015-03-04 11:04:17] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 11:04:17] select count(*) from cz_goods_type
+[2015-03-04 11:17:58] set names utf8
+[2015-03-04 11:17:58] DESC cz_goods_type
+[2015-03-04 11:17:58] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 11:17:58] select count(*) from cz_goods_type
+[2015-03-04 11:19:56] set names utf8
+[2015-03-04 11:19:56] DESC cz_goods_type
+[2015-03-04 11:19:56] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 11:19:56] select count(*) from cz_goods_type
+[2015-03-04 11:20:54] set names utf8
+[2015-03-04 11:20:54] DESC cz_attribute
+[2015-03-04 11:20:54] SELECT * FROM cz_attribute WHERE type_id = 6
+[2015-03-04 11:21:34] set names utf8
+[2015-03-04 11:21:34] DESC cz_attribute
+[2015-03-04 11:21:34] SELECT * FROM cz_attribute WHERE type_id = 6
+[2015-03-04 11:23:52] set names utf8
+[2015-03-04 11:23:52] DESC cz_attribute
+[2015-03-04 11:23:52] SELECT * FROM cz_attribute WHERE type_id = 6
+[2015-03-04 11:25:58] set names utf8
+[2015-03-04 11:25:58] DESC cz_attribute
+[2015-03-04 11:25:58] SELECT * FROM cz_attribute WHERE type_id = 6
+[2015-03-04 11:29:55] set names utf8
+[2015-03-04 11:29:55] DESC cz_attribute
+[2015-03-04 11:29:55] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id
+[2015-03-04 11:30:03] set names utf8
+[2015-03-04 11:30:03] DESC cz_goods_type
+[2015-03-04 11:30:03] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 11:30:03] select count(*) from cz_goods_type
+[2015-03-04 11:30:05] set names utf8
+[2015-03-04 11:30:05] DESC cz_attribute
+[2015-03-04 11:30:05] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id
+[2015-03-04 11:30:32] set names utf8
+[2015-03-04 11:30:32] DESC cz_attribute
+[2015-03-04 11:30:32] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where type_id = 6
+[2015-03-04 11:31:43] set names utf8
+[2015-03-04 11:31:43] DESC cz_attribute
+[2015-03-04 11:31:43] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 6
+[2015-03-04 11:41:48] set names utf8
+[2015-03-04 11:41:48] DESC cz_attribute
+[2015-03-04 11:41:48] select count(*) from cz_attribute where type_id = 6
+[2015-03-04 11:41:48] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 6
+		        limit 0,2
+[2015-03-04 11:42:18] set names utf8
+[2015-03-04 11:42:18] DESC cz_attribute
+[2015-03-04 11:42:18] select count(*) from cz_attribute where type_id = 6
+[2015-03-04 11:42:18] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 6
+		        limit 0,2
+[2015-03-04 11:42:26] set names utf8
+[2015-03-04 11:42:26] DESC cz_attribute
+[2015-03-04 11:42:26] select count(*) from cz_attribute where type_id = 6
+[2015-03-04 11:42:26] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 6
+		        limit 2,2
+[2015-03-04 11:42:29] set names utf8
+[2015-03-04 11:42:29] DESC cz_attribute
+[2015-03-04 11:42:29] select count(*) from cz_attribute where type_id = 6
+[2015-03-04 11:42:29] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 6
+		        limit 4,2
+[2015-03-04 11:47:27] set names utf8
+[2015-03-04 11:47:27] DESC cz_goods_type
+[2015-03-04 11:47:27] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 11:47:27] set names utf8
+[2015-03-04 11:47:27] DESC cz_attribute
+[2015-03-04 11:47:27] select count(*) from cz_attribute where type_id = 6
+[2015-03-04 11:47:27] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 6
+		        limit 4,2
+[2015-03-04 11:47:56] set names utf8
+[2015-03-04 11:47:56] DESC cz_goods_type
+[2015-03-04 11:47:56] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 11:47:56] set names utf8
+[2015-03-04 11:47:56] DESC cz_attribute
+[2015-03-04 11:47:56] select count(*) from cz_attribute where type_id = 6
+[2015-03-04 11:47:56] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 6
+		        limit 4,2
+[2015-03-04 11:48:14] set names utf8
+[2015-03-04 11:48:14] DESC cz_goods_type
+[2015-03-04 11:48:14] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 11:48:14] select count(*) from cz_goods_type
+[2015-03-04 11:48:17] set names utf8
+[2015-03-04 11:48:17] DESC cz_goods_type
+[2015-03-04 11:48:17] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 11:48:17] set names utf8
+[2015-03-04 11:48:17] DESC cz_attribute
+[2015-03-04 11:48:17] select count(*) from cz_attribute where type_id = 6
+[2015-03-04 11:48:17] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 6
+		        limit 0,2
+[2015-03-04 11:48:26] set names utf8
+[2015-03-04 11:48:26] DESC cz_goods_type
+[2015-03-04 11:48:26] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 11:48:26] select count(*) from cz_goods_type
+[2015-03-04 11:48:28] set names utf8
+[2015-03-04 11:48:28] DESC cz_goods_type
+[2015-03-04 11:48:28] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 11:48:28] set names utf8
+[2015-03-04 11:48:28] DESC cz_attribute
+[2015-03-04 11:48:28] select count(*) from cz_attribute where type_id = 6
+[2015-03-04 11:48:28] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 6
+		        limit 0,2
+[2015-03-04 11:49:37] set names utf8
+[2015-03-04 11:49:37] DESC cz_goods_type
+[2015-03-04 11:49:37] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 11:49:37] set names utf8
+[2015-03-04 11:49:37] DESC cz_attribute
+[2015-03-04 11:49:37] select count(*) from cz_attribute where type_id = 6
+[2015-03-04 11:49:37] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 6
+		        limit 0,2
+[2015-03-04 11:49:40] set names utf8
+[2015-03-04 11:49:40] DESC cz_goods_type
+[2015-03-04 11:49:40] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 11:49:40] select count(*) from cz_goods_type
+[2015-03-04 11:49:43] set names utf8
+[2015-03-04 11:49:43] DESC cz_goods_type
+[2015-03-04 11:49:43] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 11:49:43] set names utf8
+[2015-03-04 11:49:43] DESC cz_attribute
+[2015-03-04 11:49:43] select count(*) from cz_attribute where type_id = 7
+[2015-03-04 11:49:43] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 7
+		        limit 0,2
+[2015-03-04 11:49:47] set names utf8
+[2015-03-04 11:49:47] DESC cz_goods_type
+[2015-03-04 11:49:47] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 11:49:47] select count(*) from cz_goods_type
+[2015-03-04 11:49:50] set names utf8
+[2015-03-04 11:49:50] DESC cz_goods_type
+[2015-03-04 11:49:50] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 2,2
+[2015-03-04 11:49:50] select count(*) from cz_goods_type
+[2015-03-04 11:49:54] set names utf8
+[2015-03-04 11:49:54] DESC cz_goods_type
+[2015-03-04 11:49:54] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 11:49:54] set names utf8
+[2015-03-04 11:49:54] DESC cz_attribute
+[2015-03-04 11:49:54] select count(*) from cz_attribute where type_id = 8
+[2015-03-04 11:49:54] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 8
+		        limit 0,2
+[2015-03-04 11:51:07] set names utf8
+[2015-03-04 11:51:07] DESC cz_goods_type
+[2015-03-04 11:51:07] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 11:51:07] set names utf8
+[2015-03-04 11:51:07] DESC cz_attribute
+[2015-03-04 11:51:07] select count(*) from cz_attribute where type_id = 8
+[2015-03-04 11:51:07] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 8
+		        limit 2,2
+[2015-03-04 11:51:10] set names utf8
+[2015-03-04 11:51:10] DESC cz_goods_type
+[2015-03-04 11:51:10] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 11:51:10] set names utf8
+[2015-03-04 11:51:10] DESC cz_attribute
+[2015-03-04 11:51:10] select count(*) from cz_attribute where type_id = 8
+[2015-03-04 11:51:10] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 8
+		        limit 0,2
+[2015-03-04 11:54:26] set names utf8
+[2015-03-04 11:54:26] DESC cz_goods_type
+[2015-03-04 11:54:26] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 11:54:26] set names utf8
+[2015-03-04 11:54:26] DESC cz_attribute
+[2015-03-04 11:54:26] select count(*) from cz_attribute where type_id = 8
+[2015-03-04 11:54:26] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 8
+		        limit 0,2
+[2015-03-04 11:54:29] set names utf8
+[2015-03-04 11:54:29] DESC cz_goods_type
+[2015-03-04 11:54:29] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 11:54:29] set names utf8
+[2015-03-04 11:54:29] DESC cz_attribute
+[2015-03-04 11:54:29] select count(*) from cz_attribute where type_id = 6
+[2015-03-04 11:54:29] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 6
+		        limit 0,2
+[2015-03-04 11:54:33] set names utf8
+[2015-03-04 11:54:33] DESC cz_goods_type
+[2015-03-04 11:54:33] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 11:54:33] set names utf8
+[2015-03-04 11:54:33] DESC cz_attribute
+[2015-03-04 11:54:33] select count(*) from cz_attribute where type_id = 10
+[2015-03-04 11:54:33] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 10
+		        limit 0,2
+[2015-03-04 11:54:35] set names utf8
+[2015-03-04 11:54:35] DESC cz_goods_type
+[2015-03-04 11:54:35] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 11:54:35] set names utf8
+[2015-03-04 11:54:35] DESC cz_attribute
+[2015-03-04 11:54:35] select count(*) from cz_attribute where type_id = 13
+[2015-03-04 11:54:35] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 13
+		        limit 0,2
+[2015-03-04 11:54:38] set names utf8
+[2015-03-04 11:54:38] DESC cz_goods_type
+[2015-03-04 11:54:38] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 11:54:38] set names utf8
+[2015-03-04 11:54:38] DESC cz_attribute
+[2015-03-04 11:54:38] select count(*) from cz_attribute where type_id = 22
+[2015-03-04 11:54:38] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 22
+		        limit 0,2
+[2015-03-04 11:55:40] set names utf8
+[2015-03-04 11:55:40] DESC cz_goods_type
+[2015-03-04 11:55:40] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 11:55:40] set names utf8
+[2015-03-04 11:55:40] DESC cz_attribute
+[2015-03-04 11:55:40] select count(*) from cz_attribute where type_id = 0
+[2015-03-04 11:55:40] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 0
+		        limit 0,2
+[2015-03-04 11:57:54] set names utf8
+[2015-03-04 11:57:54] DESC cz_goods_type
+[2015-03-04 11:57:54] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 11:57:54] select count(*) from cz_goods_type
+[2015-03-04 14:06:50] set names utf8
+[2015-03-04 14:06:50] DESC cz_category
+[2015-03-04 14:06:50] SELECT * FROM cz_category
+[2015-03-04 14:06:51] set names utf8
+[2015-03-04 14:06:51] DESC cz_brand
+[2015-03-04 14:06:51] select count(*) from cz_brand
+[2015-03-04 14:06:51] select * from cz_brand limit 0,2
+[2015-03-04 14:06:51] set names utf8
+[2015-03-04 14:06:51] DESC cz_goods_type
+[2015-03-04 14:06:51] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 14:06:51] select count(*) from cz_goods_type
+[2015-03-04 14:12:17] set names utf8
+[2015-03-04 14:12:17] DESC cz_goods_type
+[2015-03-04 14:12:17] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 14:12:17] select count(*) from cz_goods_type
+[2015-03-04 14:48:26] set names utf8
+[2015-03-04 14:48:26] DESC cz_category
+[2015-03-04 14:48:26] SELECT * FROM cz_category
+[2015-03-04 14:48:26] set names utf8
+[2015-03-04 14:48:26] DESC cz_brand
+[2015-03-04 14:48:26] select * from cz_brand
+[2015-03-04 14:48:26] set names utf8
+[2015-03-04 14:48:26] DESC cz_goods_type
+[2015-03-04 14:48:26] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 14:49:15] set names utf8
+[2015-03-04 14:49:15] DESC cz_category
+[2015-03-04 14:49:15] SELECT * FROM cz_category
+[2015-03-04 14:49:15] set names utf8
+[2015-03-04 14:49:15] DESC cz_brand
+[2015-03-04 14:49:15] select * from cz_brand
+[2015-03-04 14:49:15] set names utf8
+[2015-03-04 14:49:15] DESC cz_goods_type
+[2015-03-04 14:49:15] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 14:50:31] set names utf8
+[2015-03-04 14:50:31] DESC cz_category
+[2015-03-04 14:50:31] SELECT * FROM cz_category
+[2015-03-04 14:50:31] set names utf8
+[2015-03-04 14:50:31] DESC cz_brand
+[2015-03-04 14:50:31] select * from cz_brand
+[2015-03-04 14:50:31] set names utf8
+[2015-03-04 14:50:31] DESC cz_goods_type
+[2015-03-04 14:50:31] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 14:51:45] set names utf8
+[2015-03-04 14:51:45] DESC cz_category
+[2015-03-04 14:51:45] SELECT * FROM cz_category
+[2015-03-04 14:51:45] set names utf8
+[2015-03-04 14:51:45] DESC cz_brand
+[2015-03-04 14:51:45] select * from cz_brand
+[2015-03-04 14:51:45] set names utf8
+[2015-03-04 14:51:45] DESC cz_goods_type
+[2015-03-04 14:51:45] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 14:55:40] set names utf8
+[2015-03-04 14:55:40] DESC cz_goods_type
+[2015-03-04 14:55:40] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 14:55:40] select count(*) from cz_goods_type
+[2015-03-04 14:55:41] set names utf8
+[2015-03-04 14:55:41] DESC cz_goods_type
+[2015-03-04 14:55:41] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 14:55:41] set names utf8
+[2015-03-04 14:55:41] DESC cz_attribute
+[2015-03-04 14:55:41] select count(*) from cz_attribute where type_id = 6
+[2015-03-04 14:55:41] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 6
+		        limit 0,2
+[2015-03-04 14:55:45] set names utf8
+[2015-03-04 14:55:45] DESC cz_goods_type
+[2015-03-04 14:55:45] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 14:55:45] set names utf8
+[2015-03-04 14:55:45] DESC cz_attribute
+[2015-03-04 14:55:45] select count(*) from cz_attribute where type_id = 7
+[2015-03-04 14:55:45] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 7
+		        limit 0,2
+[2015-03-04 14:55:49] set names utf8
+[2015-03-04 14:55:49] DESC cz_goods_type
+[2015-03-04 14:55:49] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 14:55:49] set names utf8
+[2015-03-04 14:55:49] DESC cz_attribute
+[2015-03-04 14:55:49] select count(*) from cz_attribute where type_id = 13
+[2015-03-04 14:55:49] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 13
+		        limit 0,2
+[2015-03-04 14:55:57] set names utf8
+[2015-03-04 14:55:57] DESC cz_goods_type
+[2015-03-04 14:55:57] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 14:55:57] set names utf8
+[2015-03-04 14:55:57] DESC cz_attribute
+[2015-03-04 14:55:57] select count(*) from cz_attribute where type_id = 13
+[2015-03-04 14:55:57] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 13
+		        limit 0,2
+[2015-03-04 15:24:40] set names utf8
+[2015-03-04 15:24:40] DESC cz_category
+[2015-03-04 15:24:40] SELECT * FROM cz_category
+[2015-03-04 15:24:40] set names utf8
+[2015-03-04 15:24:40] DESC cz_brand
+[2015-03-04 15:24:40] select * from cz_brand
+[2015-03-04 15:24:40] set names utf8
+[2015-03-04 15:24:40] DESC cz_goods_type
+[2015-03-04 15:24:40] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 15:46:41] set names utf8
+[2015-03-04 15:46:41] DESC cz_category
+[2015-03-04 15:46:41] SELECT * FROM cz_category
+[2015-03-04 15:46:41] set names utf8
+[2015-03-04 15:46:41] DESC cz_brand
+[2015-03-04 15:46:41] select * from cz_brand
+[2015-03-04 15:46:41] set names utf8
+[2015-03-04 15:46:41] DESC cz_goods_type
+[2015-03-04 15:46:41] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 16:08:26] set names utf8
+[2015-03-04 16:08:26] DESC cz_category
+[2015-03-04 16:08:26] SELECT * FROM cz_category
+[2015-03-04 16:08:26] set names utf8
+[2015-03-04 16:08:26] DESC cz_brand
+[2015-03-04 16:08:26] select * from cz_brand
+[2015-03-04 16:08:26] set names utf8
+[2015-03-04 16:08:26] DESC cz_goods_type
+[2015-03-04 16:08:26] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 16:09:05] set names utf8
+[2015-03-04 16:09:05] DESC cz_category
+[2015-03-04 16:09:05] SELECT * FROM cz_category
+[2015-03-04 16:09:05] set names utf8
+[2015-03-04 16:09:05] DESC cz_brand
+[2015-03-04 16:09:05] select * from cz_brand
+[2015-03-04 16:09:05] set names utf8
+[2015-03-04 16:09:05] DESC cz_goods_type
+[2015-03-04 16:09:05] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 16:09:09] set names utf8
+[2015-03-04 16:09:09] DESC cz_attribute
+[2015-03-04 16:09:09] select * from cz_attribute where type_id = 6
+[2015-03-04 16:09:17] set names utf8
+[2015-03-04 16:09:17] DESC cz_attribute
+[2015-03-04 16:09:17] select * from cz_attribute where type_id = 8
+[2015-03-04 16:09:24] set names utf8
+[2015-03-04 16:09:24] DESC cz_attribute
+[2015-03-04 16:09:24] select * from cz_attribute where type_id = 22
+[2015-03-04 16:10:29] set names utf8
+[2015-03-04 16:10:29] DESC cz_category
+[2015-03-04 16:10:29] SELECT * FROM cz_category
+[2015-03-04 16:10:29] set names utf8
+[2015-03-04 16:10:29] DESC cz_brand
+[2015-03-04 16:10:29] select * from cz_brand
+[2015-03-04 16:10:29] set names utf8
+[2015-03-04 16:10:29] DESC cz_goods_type
+[2015-03-04 16:10:29] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 16:10:33] set names utf8
+[2015-03-04 16:10:33] DESC cz_attribute
+[2015-03-04 16:10:33] select * from cz_attribute where type_id = 6
+[2015-03-04 16:10:36] set names utf8
+[2015-03-04 16:10:36] DESC cz_attribute
+[2015-03-04 16:10:36] select * from cz_attribute where type_id = 8
+[2015-03-04 16:10:39] set names utf8
+[2015-03-04 16:10:39] DESC cz_attribute
+[2015-03-04 16:10:39] select * from cz_attribute where type_id = 13
+[2015-03-04 16:10:43] set names utf8
+[2015-03-04 16:10:43] DESC cz_attribute
+[2015-03-04 16:10:43] select * from cz_attribute where type_id = 6
+[2015-03-04 16:10:52] set names utf8
+[2015-03-04 16:10:52] DESC cz_attribute
+[2015-03-04 16:10:52] select * from cz_attribute where type_id = 7
+[2015-03-04 16:12:48] set names utf8
+[2015-03-04 16:12:48] DESC cz_category
+[2015-03-04 16:12:48] SELECT * FROM cz_category
+[2015-03-04 16:12:51] set names utf8
+[2015-03-04 16:12:51] DESC cz_brand
+[2015-03-04 16:12:51] select count(*) from cz_brand
+[2015-03-04 16:12:51] select * from cz_brand limit 0,2
+[2015-03-04 16:12:52] set names utf8
+[2015-03-04 16:12:52] DESC cz_goods_type
+[2015-03-04 16:12:52] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 16:12:52] select count(*) from cz_goods_type
+[2015-03-04 16:12:54] set names utf8
+[2015-03-04 16:12:54] DESC cz_goods_type
+[2015-03-04 16:12:54] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 16:12:54] set names utf8
+[2015-03-04 16:12:54] DESC cz_attribute
+[2015-03-04 16:12:55] select count(*) from cz_attribute where type_id = 6
+[2015-03-04 16:12:55] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 6
+		        limit 0,2
+[2015-03-04 16:12:56] set names utf8
+[2015-03-04 16:12:56] DESC cz_category
+[2015-03-04 16:12:56] SELECT * FROM cz_category
+[2015-03-04 16:12:56] set names utf8
+[2015-03-04 16:12:56] DESC cz_brand
+[2015-03-04 16:12:56] select * from cz_brand
+[2015-03-04 16:12:56] set names utf8
+[2015-03-04 16:12:56] DESC cz_goods_type
+[2015-03-04 16:12:56] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-04 16:13:00] set names utf8
+[2015-03-04 16:13:00] DESC cz_attribute
+[2015-03-04 16:13:00] select * from cz_attribute where type_id = 7
+[2015-03-04 16:13:02] set names utf8
+[2015-03-04 16:13:02] DESC cz_attribute
+[2015-03-04 16:13:02] select * from cz_attribute where type_id = 6
+[2015-03-04 17:22:54] set names utf8
+[2015-03-04 17:22:54] DESC cz_goods_type
+[2015-03-04 17:22:54] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-04 17:22:54] select count(*) from cz_goods_type
+[2015-03-05 08:53:06] set names utf8
+[2015-03-05 08:53:06] DESC cz_admin
+[2015-03-05 08:53:06] SELECT * FROM cz_admin 
+			    WHERE admin_name = 'admin' AND password = '21232f297a57a5a743894a0e4a801fc3' 
+			    LIMIT 1
+[2015-03-05 14:10:49] set names utf8
+[2015-03-05 14:10:49] DESC cz_admin
+[2015-03-05 14:10:49] SELECT * FROM cz_admin 
+			    WHERE admin_name = 'admin' AND password = '21232f297a57a5a743894a0e4a801fc3' 
+			    LIMIT 1
+[2015-03-05 14:10:52] set names utf8
+[2015-03-05 14:10:52] DESC cz_category
+[2015-03-05 14:10:53] SELECT * FROM cz_category
+[2015-03-05 14:10:53] set names utf8
+[2015-03-05 14:10:53] DESC cz_brand
+[2015-03-05 14:10:53] select * from cz_brand
+[2015-03-05 14:10:53] set names utf8
+[2015-03-05 14:10:53] DESC cz_goods_type
+[2015-03-05 14:10:53] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-05 14:34:12] set names utf8
+[2015-03-05 14:34:12] DESC cz_goods_type
+[2015-03-05 14:34:12] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-05 14:34:12] select count(*) from cz_goods_type
+[2015-03-05 14:34:25] set names utf8
+[2015-03-05 14:34:25] DESC cz_goods_type
+[2015-03-05 14:34:25] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-05 14:34:25] set names utf8
+[2015-03-05 14:34:25] DESC cz_attribute
+[2015-03-05 14:34:25] select count(*) from cz_attribute where type_id = 6
+[2015-03-05 14:34:25] select a.*,b.type_name from cz_attribute as a inner join 
+		        cz_goods_type as b on a.type_id = b.type_id 
+		        where a.type_id = 6
+		        limit 0,2
+[2015-03-05 14:34:29] set names utf8
+[2015-03-05 14:34:29] DESC cz_goods_type
+[2015-03-05 14:34:29] SELECT * FROM cz_goods_type ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-05 14:34:29] select count(*) from cz_goods_type
+[2015-03-05 14:53:18] set names utf8
+[2015-03-05 14:53:18] DESC cz_goods_type
+[2015-03-05 14:53:18] SELECT a.*,COUNT(b.attr_name) AS num FROM cz_goods_type AS a 
+		        LEFT JOIN cz_attribute AS b
+				ON a.type_id = b.type_id GROUP BY a.type_id ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-05 14:53:18] select count(*) from cz_goods_type
+[2015-03-05 14:53:50] set names utf8
+[2015-03-05 14:53:50] DESC cz_goods_type
+[2015-03-05 14:53:50] SELECT a.*,COUNT(b.attr_name) AS num FROM cz_goods_type AS a 
+		        LEFT JOIN cz_attribute AS b
+				ON a.type_id = b.type_id GROUP BY a.type_id ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-05 14:53:50] select count(*) from cz_goods_type
+[2015-03-05 14:53:55] set names utf8
+[2015-03-05 14:53:55] DESC cz_goods_type
+[2015-03-05 14:53:55] SELECT a.*,COUNT(b.attr_name) AS num FROM cz_goods_type AS a 
+		        LEFT JOIN cz_attribute AS b
+				ON a.type_id = b.type_id GROUP BY a.type_id ORDER BY type_id 
+		        LIMIT 2,2
+[2015-03-05 14:53:55] select count(*) from cz_goods_type
+[2015-03-05 14:53:57] set names utf8
+[2015-03-05 14:53:57] DESC cz_goods_type
+[2015-03-05 14:53:57] SELECT a.*,COUNT(b.attr_name) AS num FROM cz_goods_type AS a 
+		        LEFT JOIN cz_attribute AS b
+				ON a.type_id = b.type_id GROUP BY a.type_id ORDER BY type_id 
+		        LIMIT 4,2
+[2015-03-05 14:53:57] select count(*) from cz_goods_type
+[2015-03-05 14:53:59] set names utf8
+[2015-03-05 14:53:59] DESC cz_goods_type
+[2015-03-05 14:53:59] SELECT a.*,COUNT(b.attr_name) AS num FROM cz_goods_type AS a 
+		        LEFT JOIN cz_attribute AS b
+				ON a.type_id = b.type_id GROUP BY a.type_id ORDER BY type_id 
+		        LIMIT 6,2
+[2015-03-05 14:53:59] select count(*) from cz_goods_type
+[2015-03-05 14:54:02] set names utf8
+[2015-03-05 14:54:02] DESC cz_goods_type
+[2015-03-05 14:54:02] SELECT a.*,COUNT(b.attr_name) AS num FROM cz_goods_type AS a 
+		        LEFT JOIN cz_attribute AS b
+				ON a.type_id = b.type_id GROUP BY a.type_id ORDER BY type_id 
+		        LIMIT 8,2
+[2015-03-05 14:54:02] select count(*) from cz_goods_type
+[2015-03-05 14:54:03] set names utf8
+[2015-03-05 14:54:03] DESC cz_goods_type
+[2015-03-05 14:54:03] SELECT a.*,COUNT(b.attr_name) AS num FROM cz_goods_type AS a 
+		        LEFT JOIN cz_attribute AS b
+				ON a.type_id = b.type_id GROUP BY a.type_id ORDER BY type_id 
+		        LIMIT 0,2
+[2015-03-05 14:54:03] select count(*) from cz_goods_type
+[2015-03-05 14:55:19] set names utf8
+[2015-03-05 14:55:19] DESC cz_category
+[2015-03-05 14:55:19] SELECT * FROM cz_category
+[2015-03-05 15:00:16] set names utf8
+[2015-03-05 15:00:16] DESC cz_category
+[2015-03-05 15:00:16] SELECT * FROM cz_category
+[2015-03-05 15:00:16] set names utf8
+[2015-03-05 15:00:16] DESC cz_brand
+[2015-03-05 15:00:16] select * from cz_brand
+[2015-03-05 15:00:16] set names utf8
+[2015-03-05 15:00:16] DESC cz_goods_type
+[2015-03-05 15:00:16] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-05 15:16:05] set names utf8
+[2015-03-05 15:16:05] DESC cz_attribute
+[2015-03-05 15:16:05] select * from cz_attribute where type_id = 6
+[2015-03-05 15:34:14] set names utf8
+[2015-03-05 15:34:14] DESC cz_category
+[2015-03-05 15:34:14] SELECT * FROM cz_category
+[2015-03-05 15:34:14] set names utf8
+[2015-03-05 15:34:14] DESC cz_brand
+[2015-03-05 15:34:14] select * from cz_brand
+[2015-03-05 15:34:14] set names utf8
+[2015-03-05 15:34:14] DESC cz_goods_type
+[2015-03-05 15:34:14] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-05 15:34:44] set names utf8
+[2015-03-05 15:34:44] DESC cz_attribute
+[2015-03-05 15:34:44] select * from cz_attribute where type_id = 8
+[2015-03-05 15:35:01] set names utf8
+[2015-03-05 15:35:01] DESC cz_category
+[2015-03-05 15:35:01] SELECT * FROM cz_category
+[2015-03-05 15:35:01] set names utf8
+[2015-03-05 15:35:01] DESC cz_brand
+[2015-03-05 15:35:02] select * from cz_brand
+[2015-03-05 15:35:02] set names utf8
+[2015-03-05 15:35:02] DESC cz_goods_type
+[2015-03-05 15:35:02] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-05 15:36:08] set names utf8
+[2015-03-05 15:36:08] DESC cz_attribute
+[2015-03-05 15:36:08] select * from cz_attribute where type_id = 6
+[2015-03-05 15:36:10] set names utf8
+[2015-03-05 15:36:10] DESC cz_attribute
+[2015-03-05 15:36:10] select * from cz_attribute where type_id = 10
+[2015-03-05 15:36:11] set names utf8
+[2015-03-05 15:36:11] DESC cz_attribute
+[2015-03-05 15:36:11] select * from cz_attribute where type_id = 8
+[2015-03-05 15:36:20] set names utf8
+[2015-03-05 15:36:20] DESC cz_category
+[2015-03-05 15:36:20] SELECT * FROM cz_category
+[2015-03-05 15:36:20] set names utf8
+[2015-03-05 15:36:20] DESC cz_brand
+[2015-03-05 15:36:20] select * from cz_brand
+[2015-03-05 15:36:20] set names utf8
+[2015-03-05 15:36:20] DESC cz_goods_type
+[2015-03-05 15:36:20] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-05 15:36:26] set names utf8
+[2015-03-05 15:36:26] DESC cz_category
+[2015-03-05 15:36:26] SELECT * FROM cz_category
+[2015-03-05 15:36:26] set names utf8
+[2015-03-05 15:36:26] DESC cz_brand
+[2015-03-05 15:36:26] select * from cz_brand
+[2015-03-05 15:36:26] set names utf8
+[2015-03-05 15:36:26] DESC cz_goods_type
+[2015-03-05 15:36:26] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-05 15:36:28] set names utf8
+[2015-03-05 15:36:28] DESC cz_category
+[2015-03-05 15:36:28] SELECT * FROM cz_category
+[2015-03-05 15:36:28] set names utf8
+[2015-03-05 15:36:28] DESC cz_brand
+[2015-03-05 15:36:28] select * from cz_brand
+[2015-03-05 15:36:28] set names utf8
+[2015-03-05 15:36:28] DESC cz_goods_type
+[2015-03-05 15:36:28] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-05 15:36:32] set names utf8
+[2015-03-05 15:36:32] DESC cz_category
+[2015-03-05 15:36:32] SELECT * FROM cz_category
+[2015-03-05 15:36:32] set names utf8
+[2015-03-05 15:36:32] DESC cz_brand
+[2015-03-05 15:36:32] select * from cz_brand
+[2015-03-05 15:36:32] set names utf8
+[2015-03-05 15:36:32] DESC cz_goods_type
+[2015-03-05 15:36:32] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-05 15:36:50] set names utf8
+[2015-03-05 15:36:50] DESC cz_attribute
+[2015-03-05 15:36:50] select * from cz_attribute where type_id = 6
+[2015-03-05 15:36:59] set names utf8
+[2015-03-05 15:36:59] DESC cz_goods
+[2015-03-05 15:36:59] INSERT INTO `cz_goods` (`goods_name`,`goods_sn`,`brand_id`,`cat_id`,`type_id`,`shop_price`,`market_price`,`promote_start_time`,`promote_end_time`,`goods_desc`,`goods_number`,`add_time`,`is_best`,`is_new`,`is_hot`,`is_onsale`,`goods_img`) VALUES ('诺基亚N10000','ECS000032','9','4','6','3010.00','3612.00','1243785600','1417276800','','4','1425541019','1','1','1','1','20150305/2015030515365954f8079b24b0d.jpg')
+[2015-03-05 15:36:59] set names utf8
+[2015-03-05 15:36:59] DESC cz_goods_attr
+[2015-03-05 15:36:59] INSERT INTO `cz_goods_attr` (`goods_id`,`attr_id`,`attr_value`,`attr_price`) VALUES ('30','3','年轻人','0')
+[2015-03-05 15:36:59] set names utf8
+[2015-03-05 15:36:59] DESC cz_goods_attr
+[2015-03-05 15:36:59] INSERT INTO `cz_goods_attr` (`goods_id`,`attr_id`,`attr_value`,`attr_price`) VALUES ('30','4','MicroSD','0')
+[2015-03-05 15:36:59] set names utf8
+[2015-03-05 15:36:59] DESC cz_goods_attr
+[2015-03-05 15:36:59] INSERT INTO `cz_goods_attr` (`goods_id`,`attr_id`,`attr_value`,`attr_price`) VALUES ('30','5','黑色','0')
+[2015-03-05 15:36:59] set names utf8
+[2015-03-05 15:36:59] DESC cz_goods_attr
+[2015-03-05 15:36:59] INSERT INTO `cz_goods_attr` (`goods_id`,`attr_id`,`attr_value`,`attr_price`) VALUES ('30','6','S（165）','0')
+[2015-03-05 15:36:59] set names utf8
+[2015-03-05 15:36:59] DESC cz_goods_attr
+[2015-03-05 15:36:59] INSERT INTO `cz_goods_attr` (`goods_id`,`attr_id`,`attr_value`,`attr_price`) VALUES ('30','11','M','0')
+[2015-03-05 15:41:33] set names utf8
+[2015-03-05 15:41:33] DESC cz_category
+[2015-03-05 15:41:33] SELECT * FROM cz_category
+[2015-03-05 15:41:33] set names utf8
+[2015-03-05 15:41:33] DESC cz_brand
+[2015-03-05 15:41:33] select * from cz_brand
+[2015-03-05 15:41:33] set names utf8
+[2015-03-05 15:41:33] DESC cz_goods_type
+[2015-03-05 15:41:33] SELECT * FROM cz_goods_type ORDER BY type_id
+[2015-03-05 16:09:45] set names utf8
+[2015-03-05 16:09:45] DESC cz_admin
+[2015-03-05 16:09:45] SELECT * FROM cz_admin 
+			    WHERE admin_name = 'admin' AND password = '21232f297a57a5a743894a0e4a801fc3' 
+			    LIMIT 1
+[2015-03-05 16:09:47] set names utf8
+[2015-03-05 16:09:47] DESC cz_category
+[2015-03-05 16:09:47] SELECT * FROM cz_category
+[2015-03-05 16:44:52] set names utf8
+[2015-03-05 16:44:52] DESC cz_category
+[2015-03-05 16:44:52] SELECT * FROM cz_category
+[2015-03-05 16:45:07] set names utf8
+[2015-03-05 16:45:07] DESC cz_category
+[2015-03-05 16:45:07] SELECT * FROM cz_category
+[2015-03-05 16:46:43] set names utf8
+[2015-03-05 16:46:43] DESC cz_category
+[2015-03-05 16:46:43] SELECT * FROM cz_category
+[2015-03-05 16:51:07] set names utf8
+[2015-03-05 16:51:07] DESC cz_category
+[2015-03-05 16:51:07] SELECT * FROM cz_category
+[2015-03-05 16:53:06] set names utf8
+[2015-03-05 16:53:06] DESC cz_category
+[2015-03-05 16:53:06] SELECT * FROM cz_category
+[2015-03-05 17:06:21] set names utf8
+[2015-03-05 17:06:21] DESC cz_category
+[2015-03-05 17:06:21] SELECT * FROM cz_category
+[2015-03-05 17:06:22] set names utf8
+[2015-03-05 17:06:22] DESC cz_goods
+[2015-03-05 17:06:22] select * from cz_goods where is_best = 1 
+		and is_onsale = 1 order by add_time desc limit 4
+[2015-03-05 17:07:06] set names utf8
+[2015-03-05 17:07:06] DESC cz_category
+[2015-03-05 17:07:06] SELECT * FROM cz_category
+[2015-03-05 17:07:07] set names utf8
+[2015-03-05 17:07:07] DESC cz_goods
+[2015-03-05 17:07:07] select * from cz_goods where is_best = 1 
+		and is_onsale = 1 order by add_time desc limit 4
