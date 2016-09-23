@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE roster SYSTEM "demo12.dtd"[
+	<!ENTITY % p "teacher">
+]>
+<roster>
+	<teacher id="a1">
+		<name></name>
+		<sex></sex>
+		<birthday></birthday>
+		<skill></skill>
+	</teacher>
+</roster>

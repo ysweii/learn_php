@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE roster SYSTEM "demo12.dtd"[
+	<!ENTITY % p "student">
+]>
+<roster>
+	<student id="a1">
+		<name>cherry</name>
+		<sex>girl</sex>
+		<birthday>1991/01/01</birthday>
+		<skill>basketball</skill>
+	</student>
+	<student id="a2">
+		<name></name>
+		<sex></sex>
+		<birthday></birthday>
+		<skill></skill>
+	</student>
+</roster>
