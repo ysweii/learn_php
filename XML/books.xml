@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<books>
+  <book type="脚本语言">
+    <name>PHP</name>
+  </book>
+  <book type="标记语言">
+    <name>XML</name>
+  </book>
+  <book type="高级语言">
+    <name>JAVA</name>
+  </book>
+</books>
