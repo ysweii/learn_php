@@ -2,11 +2,11 @@
 <!DOCTYPE movies SYSTEM "demo10.dtd">
 <movies>
 	<movie id="1" type="恐怖片">
-		<title></title>
-		<actor></actor>
+		<title>fdsfsd</title>
+		<actor>fdsfsd</actor>
 	</movie>
 	<movie id="2">
-		<title></title>
-		<actor></actor>
+		<title>fdsfsd</title>
+		<actor>fsdfs</actor>
 	</movie>
 </movies>
