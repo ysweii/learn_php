@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>todo supply a title</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	.first{
+		background-color: #F90;
+	}
+	.last{
+		background-color: #fff;
+	}
+	.even{
+		background-color: #0ff;
+	}
+	</style>
+
+
+</head>
+<body>
+
+	<table width="500" border="1" bordercolor="#000" align="center">
+		<tr>
+			<th>是否是第一个元素</th>
+			<th>编号</th>
+			<th>索引</th>
+			<th>键</th>
+			<th>值</th>
+			<th>是否是最后一个元素</th>
+		</tr>
+		{foreach $stu as $k=>$v}
+		{if $v@first}
+			<tr class="first">
+		{elseif $v@last}
+			<tr class="last">
+		{elseif $v@iteration%2==0}
+			<tr class="even">
+		{else}
+			<tr>
+		{/if}
+			<td>{$v@first}</td>
+			<td>{$v@iteration}</td>
+			<td>{$v@index}</td>
+			<td>{$k}</td>
+			<td>{$v}</td>
+			<td>{$v@last}</td>
+		</tr>
+		{foreachelse}
+			没有此数组
+		{/foreach}
+	</table>
+
+	一共有{$v@total}条记录<br>
+	数组中是否有元素：{$v@show}
+
+	<hr>
+
+	    you score is : {$score}<br>
+	{if $score>=90}
+		孩子，你是我的骄傲
+	{elseif $score>=80}
+    	好样的，宝贝
+	{elseif $score>=70}
+     	你离优秀不远了
+	{elseif $score>=60}
+      	您还是有潜力的
+	{else}
+       	看来你不努力是不行了
+	{/if}
+
+	<!--  您的成绩是{$score}<br>
+    {if $score>=90}
+    	孩子，你是我的骄傲
+    {elseif $score>=80}
+    	好样的，宝贝
+    {elseif $socre>=70}
+     	你离优秀不远了
+    {elseif $socre>=60}
+      	您还是有潜力的
+    {else}
+       	看来你不努力是不行了
+    {/if} -->
+
+
+
+</body>
+</html>

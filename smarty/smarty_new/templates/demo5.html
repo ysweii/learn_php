@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>todo supply title</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	{section name=s loop=$stu}
+		{$stu[s]}--{$smarty.section.s.iteration}--{$smarty.section.s.index}
+	{/section}
+
+	<hr>
+	{for $i=1 to 10}
+	{$i}:白日依山尽
+	{/for}
+
+	<hr>
+	{for $i=0 to 10 step 2}
+	{$i}:白日依山尽
+	{/for}
+
+	<hr>
+	{assign var='i' value=1}
+	{while $i<10}
+	{$i++}:黄河入海流 <br>
+	{/while}
+
+</body>
+</html>

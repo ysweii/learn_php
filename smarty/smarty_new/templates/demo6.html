@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>todo supply title</title>
+</head>
+<body>
+
+	{*
+	favorite: {html_checkboxes output=$output values=$values selected=$selected name='hobby' separator='<br>'}
+	*}
+
+	favorite:  {html_checkboxes options=$options name='hobby' selected=$selected};
+
+	<hr>
+
+	favorite:  {html_checkboxes options=$options name='hobby' selected=$selected  multiple="multiple"};
+
+	<hr>
+
+	favorite:  {html_radios options=$options name='hobby'  selected=$selcted_radio}
+
+
+	
+
+
+
+</body>
+</html>
