@@ -7,8 +7,9 @@
  */
 
 namespace Admin\Controller;
-use Think\Controller;
-class ManagerController extends Controller{
+use Components\AdminController;
+
+class ManagerController extends AdminController{
     public function index(){
         $this->display();
     }
@@ -40,12 +41,4 @@ class ManagerController extends Controller{
         $this->display();
     }
 
-
-    public function managertest1(){
-        echo '这是从login中跨域请求manager的方法';
-    }
-
-    public function test2(){
-        echo '这是manage中的test2 的方法';
-    }
 }

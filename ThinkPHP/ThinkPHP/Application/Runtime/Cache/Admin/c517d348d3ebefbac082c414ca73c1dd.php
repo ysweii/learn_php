@@ -49,7 +49,7 @@
                         <td align=middle width=30><img height=9
                                                        src="Application/Admin/Public/img/menu_icon.gif" width=9></td>
                         <td><a class=menuchild
-                               href="#"
+                               href="/ThinkPHP/ThinkPHP/index.php/Admin/<?php echo ($vo2["auth_c"]); ?>/<?php echo ($vo2["auth_a"]); ?>"
                                target=main><?php echo ($vo2["auth_name"]); ?></a></td>
                     </tr><?php endif; endforeach; endif; else: echo "" ;endif; ?>
                 </table><?php endforeach; endif; else: echo "" ;endif; ?>
