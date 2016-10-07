@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    你的成绩是：{$score}<br>
+    <if condition='$score egt 90'>
+        孩子，你是我的骄傲
+    <elseif condition='$score egt 80'/>
+        孩子，考的不错
+    <elseif condition='$score egt 70'/>
+        你离优秀不远了
+    <elseif condition='$score egt 60'/>
+        你还要继续烟加油
+    <else/>
+        看来你需要努力了
+    </if>
+
+
+    <for start ='1' end = '100' step = '10' name = 'a'>
+        {$a} : 锄禾日当午 <br>
+    </for>
+
+
+
+
+
+</body>
+</html>
