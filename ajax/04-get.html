@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>新建网页</title>
+	<script type="text/javascript">
+		function checkname(){
+			//ajax负责抓取用户的信息，并且将信息传递给服务器
+			//获取用户名信息
+			var nm = document.getElementById('username').value;
+
+			nm = encodeURIComponent(nm);//对容易混淆的信息进行处理
+
+
+			var xhr = new XMLHttpRequest();
+			xhr.onreadystatechange = function(){
+				if (xhr.readyState == 4) {
+					alert(xhr.responseText);
+				}
+			}
+
+			xhr.open('get','./04.php?name='+nm);
+			xhr.send(null);
+		}
+	</script>
+</head>
+<body>
+	<h2>get方式的请求</h2>
+	<form method="post" action="">
+		<p>用户名：<input type="text" name="username" id="username" onblur="checkname()"></p>
+		<p>密码：<input type="text" name="userpwd"></p>
+		<p><input type="submit" value="注册"></p>
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>新建网页</title>
+	<script type="text/javascript">
+		function f1(){
+			var xhr = new XMLHttpRequest();
+			xhr.onreadystatechange = function(){
+				if (xhr.readyState == 4) {
+					document.body.innerHTML += xhr.responseText;
+				}
+			}
+
+			xhr.open('get','./03.php');
+			xhr.send(null);
+		}
+
+		
+	</script>
+</head>
+<body>
+	<h2>接收ajax返回的数据</h2>
+	<input type="button" value="触发" onclick="f1()" />
+</body>
+</html>

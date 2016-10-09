@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>新建网页</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <script type="text/javascript">
+    //ajax发起请求
+    function f1(){
+    	var xhr = new XMLHttpRequest();
+
+    	xhr.open("get",'./02.php');
+
+    	xhr.send(null);
+    }
+    </script>
+</head>
+<body>
+
+	<h2>ajax发起请求</h2>
+	<input type="button" value="出发" onclick="f1()" />
+
+</body>
+</html>

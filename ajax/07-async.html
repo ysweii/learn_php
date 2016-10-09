@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>新建网页</title>
+	<script type="text/javascript">
+		var xhr = new XMLHttpRequest();
+		xhr.onreadystatechange = function(){
+			if (xhr.readyState == 4) {
+				//alert(xhr.responseText);
+				document.body.innerHTML += xhr.responseText;
+			}
+		}
+		xhr.open('get','07.php',true);
+		xhr.send(null);
+
+
+		var xhr2 = new XMLHttpRequest();
+		xhr2.onreadystatechange = function(){
+			if (xhr2.readyState == 4) {
+				document.body.innerHTML += xhr2.responseText;
+			}
+		}
+
+		xhr2.open('get','07.php',true);
+		xhr2.send(null);
+	</script>
+</head>
+<body>
+	<h2>同步，异步请求</h2>
+	<img src="2d.jpg" alt="" width="400" height="240" />
+
+</body>
+</html>

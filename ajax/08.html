@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		var xhr = new XMLHttpRequest();
+		xhr.onreadystatechange = function(){
+			if (xhr.readyState == 4) {
+				// alert(xhr.responseXML);
+				var xmldom = xhr.responseXML;
+				// console.log(xmldom.firstChild);
+				// console.log(xmldom.firstChild.childNodes);
+				var std = xmldom.getElementsByTagName('student');
+				// console.log(std);
+				var s = "";
+				for(var i=0; i<std.length; i++){
+					var nm = std[i].getElementsByTagName('name')[0].innerHTML;
+					var age = std[i].getElementsByTagName('age')[0].firstChild.wholeText;
+					var addr = std[i].getElementsByTagName('addr')[0].innerHTML;
+
+					s += '名字：'+nm+'--年纪：'+age+"--地址："+addr+"<br/>";
+				}
+				document.body.innerHTML += s;
+			}
+		}
+		xhr.open('get','08.xml');
+		xhr.send(null);
+	</script>
+</head>
+<body>
+
+</body>
+</html>
