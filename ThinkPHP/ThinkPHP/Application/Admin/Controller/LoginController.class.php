@@ -16,6 +16,17 @@ class LoginController extends Controller{
         $this->display();
     }
 
+    public function checkName($name){
+        $rst = M('manager')->where("mg_name='$name'")->find();
+        if ($rst === null){
+            echo "<span style='color:green'>恭喜可以使用</span>";
+        } else {
+            echo  "<span style='color:red'>不能使用</span>";
+        }
+    }
+
+
+
     public function checkUser(){
         $obj = new Verify();
         if ($obj->check(I('post.captcha','','trim'))){

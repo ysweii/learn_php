@@ -7,6 +7,20 @@
     <title>用户登录</title>
 
     <link href="Application/Admin/Public/css/User_Login.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript">
+        function checknm() {
+            var nm = document.getElementById('admin_user').value;
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4){
+                    document.getElementById('username_result').innerHTML = xhr.responseText;
+                }
+            }
+            xhr.open('get','/ThinkPHP/ThinkPHP/index.php/Admin/Login/checkName/name/'+nm);
+            xhr.send(null);
+        }
+
+    </script>
 </head><body id="userlogin_body">
 <div></div>
 <div id="user_login">
@@ -25,7 +39,9 @@
                         <ul>
                             <li class="user_main_text">用户名： </li>
                             <li class="user_main_input">
-                                <input class="TxtUserNameCssClass" id="admin_user" maxlength="20" name="admin_user"> </li></ul>
+                                <input class="TxtUserNameCssClass" id="admin_user" maxlength="20" name="admin_user" onblur="checknm()"> </li>
+                            <li class="username_result" id="username_result"></li>
+                        </ul>
                         <ul>
                             <li class="user_main_text">密&nbsp;&nbsp;&nbsp;&nbsp;码： </li>
                             <li class="user_main_input">
