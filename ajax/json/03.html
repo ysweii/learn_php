@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>新建网页</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <script type="text/javascript">
+            function showweather(){
+                var xhr = new XMLHttpRequest();
+                xhr.onreadystatechange = function(){
+                    if (xhr.readyState == 4) {
+                        console.log(xhr.responseText);
+                        eval("var info="+xhr.responseText);
+                        console.log(info);
+                        var str = "地址： "+info.addr+"温度："+info.temp+"风向："+info.wind;
+                        document.getElementById('result').innerHTML = str;
+                    }
+                }
+                xhr.open('get','03.php');
+                xhr.send(null);
+            }
+
+            window.onload = function(){
+                showweather();
+            }
+        </script>
+
+<style type="text/css">
+        </style>
+    </head>
+    <body>
+        <h2>静态网站页面(获得天气预报接口信息)</h2>
+        <div id="result"></div>
+    </body>
+</html>
