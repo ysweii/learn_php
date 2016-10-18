@@ -9,6 +9,11 @@ define('APP_DEBUG',true);
 define('SITE_URL',"http://".$_SERVER['SERVER_NAME']."/wshop/"); 
 
 
+define('CSS_URL',SITE_URL.'shop/Public/css/');
+define('IMG_URL', SITE_URL.'shop/Public/img/');
+define('JS_URL',SITE_URL.'shop/Public/js/');
+
+
 define('ADMIN_CSS_URL',SITE_URL.'shop/Admin/Public/css/');
 define('ADMIN_IMG_URL',SITE_URL.'shop/Admin/Public/img/');
 define('ADMIN_JS_URL',SITE_URL.'shop/Admin/Public/js/');

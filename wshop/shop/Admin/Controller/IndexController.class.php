@@ -11,8 +11,8 @@ use Think\Controller;
 
 class IndexController extends Controller{
     function head(){
-        echo __DIR__;
-        echo $_SERVER['SERVER_NAME'];
+//        echo __DIR__;
+//        echo $_SERVER['SERVER_NAME'];
         $this->display();
 
 
