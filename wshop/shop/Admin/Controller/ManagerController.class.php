@@ -20,16 +20,26 @@ class ManagerController extends Controller{
                 $pw = $_POST['admin_psd'];
                 $user = new \Model\UserModel('manager');
                 $info = $user->checkNamePwd($nm,$pw);
-                var_dump($info);
+                //var_dump($info);
+                if($info){
+                    session('admin_user',$info['mg_name']);
+                    session('admin_id',$info['mg_id']);
+                    $this->redirect('Index/index');
+                }
                 
             }
+            echo "验证码错误";
         }
-        
-        
-        
-        
         $this->display();
     }
+    
+    public function logout(){
+        session(null);
+        $this->redirect('login');
+    }
+    
+    
+    
     
     
     public function verifyImg(){
