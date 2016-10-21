@@ -22,6 +22,22 @@ class GoodsController extends Controller{
     
     
     public function add(){
+        $goods = M('goods');
+        $category = M('category');
+        $cats = $category->select();
+        //var_dump($cats);
+        
+        if(!empty($_POST)){
+            $info = $goods->create();
+            $result = $goods->add($info);
+            if($result){
+                //添加成功  有返回的结果
+                $this->redirect('showlist',array(),2,'添加商品成功');
+            }
+        }
+        
+        
+        $this->assign('cats',$cats);
         $this->display();
     }
     
