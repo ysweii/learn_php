@@ -12,10 +12,17 @@ class GoodsController extends Controller{
     public function showlist(){
         
         $goods = D('goods');
-        $sql = "select * from sw_goods";
+       
+        $total = $goods->count();
+        $per = 7;
+        $page = new \Tools\Page($total,$per);
+        $sql = "select * from sw_goods order by goods_id desc ".$page->limit;
         $info = $goods->query($sql);
 //        echo "<pre>";
 //        var_dump($info);
+        $page_list = $page->fpage();
+        //var_dump($page_list);
+        $this->assign('page_list',$page_list);
         $this->assign('info',$info);
         $this->display();
     }

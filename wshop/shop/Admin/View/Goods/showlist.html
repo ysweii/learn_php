@@ -6,6 +6,20 @@
         <title>会员列表</title>
 
         <link href="{$Think.const.ADMIN_CSS_URL}mine.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" >
+            function showpage(url){
+                var xhr = new XHLHttpRequest();
+                xhr.onreadystatechange = function(){
+                    if(xhr.readyState == 4){
+                        document.getElementById('result').innerHTML = xhr.reponseText;
+                    }
+                }
+                xhr.open('get',url);
+                xhr.send(null);
+            }
+            
+        </script>
+            
     </head>
     <body>
         <style>
@@ -60,8 +74,8 @@
                     </volist>
 
                     <tr>
-                        <td colspan="20" style="text-align: center;">
-                            [1]
+                        <td colspan="20" style="text-align: center;"  id='result'>
+                            {$page_list}
                         </td>
                     </tr>
                 </tbody>
