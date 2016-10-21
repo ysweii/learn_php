@@ -28,6 +28,24 @@ class GoodsController extends Controller{
         //var_dump($cats);
         
         if(!empty($_POST)){
+            
+            //实现附件图片的的上传
+            if($_FILES['goods_big_img']['error'] != 4){
+                $cfg = array(
+                    'rootPath'  =>  './Admin/Public/uploads/',
+                );
+                
+                $up = new \Think\Upload($cfg);
+                $pic_result = $up->uploadOne($_FILES['goods_big_img']);
+                $pic_name = $pic_result['savepath'].$pic_result['savename'];
+                $_POST['goods_big_img'] = $pic_name;            
+                //生成缩略图
+                $img = new \Think\Image();
+                $img->open('./Admin/Public/uploads/'.$pic_name);
+                $small_picname = $pic_result['savepath'].'small_'.$pic_result['savename'];
+                $img->thumb(120, 120,6)->save('./Admin/Public/uploads/'.$small_picname);
+                $_POST['goods_small_img'] = $small_picname;
+            }
             $info = $goods->create();
             $result = $goods->add($info);
             if($result){
